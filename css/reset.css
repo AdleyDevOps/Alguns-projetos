@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 300px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}

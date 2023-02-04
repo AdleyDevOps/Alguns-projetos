@@ -1,0 +1,182 @@
+html {
+    font-size: 62,5%;
+}
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+    font-size: 1.6rem
+}
+
+.cabecalho {
+    padding: 30px 15px;
+    position: relative;
+}
+
+.logo {
+    background: url(../src/logo.jpg) no-repeat center;
+    width: 85px;
+    height: 80px;
+    display: inline-block;
+}
+
+.cabecalho .logo h1 {
+    font-size: 0px;
+}
+
+.cabecalho nav {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin-top: 30px;
+}
+
+.cabecalho ul li {
+    display: inline-block;
+    padding: 15px;
+}
+
+.cabecalho ul li a:hover {
+    font-weight: bold;
+}
+
+.painel {
+    background: url(../src/painel.jpg) no-repeat center center;
+    height: 600px;
+}
+
+.painel h2 {
+    color: white;
+    font-size: 60px;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.secao-com-texto {
+    padding: 156px;
+    text-align: center;
+    clear: both;
+}
+
+.secao-com-texto img {
+    width: 170px;
+    height: 170px;
+    margin-bottom: 70px;
+}
+
+.secao-com-texto h2 {
+    font-size: 45px;
+    font-weight: 600px;
+    margin-bottom: 37px;
+}
+
+.secao-com-texto p {
+    font-size: 18px;
+    width: 702px;
+    margin: 0 auto;
+}
+
+.secao-com-texto.onde-estamos p {
+    font-size: 28px;
+    width: 455px;
+}
+
+.ladrilho div {
+    float: left;
+}
+
+.ladrilho .grande {
+    background: url(../src/4.jpg) no-repeat center center;
+    height: 600px;
+    width: 50%;
+}
+
+.ladrilho .pequeno {
+    background: url(../src/3.jpg) no-repeat center center;
+    height: 300px;
+    width: 25%;
+}
+
+.ladrilho .pequeno-grao {
+    background: url(../src/2.jpg) no-repeat center center;
+    height: 300px;
+    width: 25%;
+}
+
+.ladrilho .medio {
+    background: url(../src/1.jpg) no-repeat center center;
+    height: 300px;
+    width: 50%;
+}
+
+.contato {
+    background: url(../src/fundo-contato.jpg) no-repeat center center;
+    height: 600px;
+    color: white;
+    position: relative;
+}
+
+.contato h2 {
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.contato address {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.juntando {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+
+#rodape {
+    background: url(../src/fundo-rodape.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 30px 35px;
+    background-size: cover;
+}
+
+#rodape ul {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin-top: 30px;
+}
+
+#rodape li {
+    display: inline-block;
+    padding: 15px;
+}
+
+#rodape .redes-sociais a{color: white;}
+
+#rodape ul li a {
+    color: white;
+}
+
+#rodape ul a:hover {
+    font-weight: bold;
+}
+
+#rodape .copyright {
+    color: white;
+    margin-top: 40px;
+}
+
+#rodape .redes-sociais .face,
+#rodape .redes-sociais .insta {
+    width: 20px;
+    height: 20px;
+    margin: 15px;
+    float: right;
+    margin-top: 50px;
+
+}
